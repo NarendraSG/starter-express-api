@@ -33,6 +33,6 @@ app.use(cors(options));
 
 app.all('/', (req, res) => {
     console.log("Just got a request!")
-    res.send({status: 'Yo!'})
+    res.send({status: 'Yo!', changes: "done"})
 })
 app.listen(process.env.PORT || 3000)
