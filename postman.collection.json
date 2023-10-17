@@ -1,0 +1,116 @@
+{
+	"info": {
+		"_postman_id": "9bbaba83-2963-4e8b-a31b-6b1985b563a7",
+		"name": "Parameter store apis",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11316388",
+		"_collection_link": "https://dark-meteor-92579.postman.co/workspace/Pulse~87729f8d-8f2a-43ed-8b2e-512f47c76d66/collection/11316388-9bbaba83-2963-4e8b-a31b-6b1985b563a7?action=share&source=collection_link&creator=11316388"
+	},
+	"item": [
+		{
+			"name": "GET params",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "AWS_ACCESS_KEY_ID",
+						"value": "ASIARKRDTIUBCQNQNSWW",
+						"type": "text",
+						"id": 0
+					},
+					{
+						"key": "AWS_SECRET_ACCESS_KEY",
+						"value": "o6EDJ96O+krR5fFYG680IAV/Rqn+xjVF1Al6dNbQ",
+						"type": "text",
+						"id": 1
+					},
+					{
+						"key": "AWS_SESSION_TOKEN",
+						"value": "IQoJb3JpZ2luX2VjEHkaCWV1LXdlc3QtMSJIMEYCIQDlIbls/nNDjONa4wu9NPFdr+tZy848t/GTVWgMIxlMDAIhAMV0tO2TCpUrYfHkLyQLjd0hvt9jOnixFqQ68fNlqgAaKp0DCJL//////////wEQARoMMDkxMzQyNzE4MjEwIgzmp0iYgEwnEVa6Q/cq8QLk3Q6dty0zIhkbRYQZiiBScZwICf96N1269Yuk1FX7cpY+blP1qHtYjpEHaA3RV6PZ6bMeggM91BHByM6GWY10Wk1buQC0mVHlrCiUmGSXo2qUkZC5PUczMvqgh4aGx67+SURLjzaS/69p85VUcSbtrq3NcY7/esIG4B3bd4JimE0vMrVUi7vSJ6vgHA3E/ztuxq0PNjbGgS0oxSvvI9lJsjyCqUm36otFkaK3C1ICLH2Ht6gfVZOiG8LkiMkiLl8Lt8ilvFuRs7++N2Mikd+ZBy5fuQTXAC6GpTRQ7eX+hxlhKf4DbplZ7NnPszbEO4QJ5pUuVMzhFV/Mg0lNUBJgD7rzpJVl/UzwoNJX5B+3NMthbP+b/Cgt4krWcMef/URRnDb58lJnDh+0c2Fc2VeuyPdw091Ygl6ohsk2jpLrXrNwr0Q5OuxVA++wl5MTEUvh2wt8hlIkfHT7yVyBvdEA+DCx3gSGhdz5iiaHAZKAXVsw2O+6qQY6pQEQzChWMjQazqFbilZlUJXtxPKf9JO9aXXLiJ8Im0rm+aj5acpGrjPTlqhCR/FbzZbpZ8B0Gi4K6R5IE7YTQI57sOe/xnA3uBlOa5DuRwnT7MNpd2MTJnkbDBswzmnTU9uyn+sMDXhDRoxzjFsn8CMy5f3pzqbN9XABSg8o03nwe8RiP4j7sgsa6LlmNC9ssqVAlRIQiO/N115L/A3O5/knDE8d8Ic=",
+						"type": "text",
+						"id": 2
+					},
+					{
+						"key": "REGION",
+						"value": "eu-west-1",
+						"type": "text",
+						"id": 3
+					}
+				],
+				"url": {
+					"raw": "https://3000-narendrasg-starterexpre-jdmj702c5s6.ws-us105.gitpod.io/params/pulse/dev",
+					"protocol": "https",
+					"host": [
+						"3000-narendrasg-starterexpre-jdmj702c5s6",
+						"ws-us105",
+						"gitpod",
+						"io"
+					],
+					"path": [
+						"params",
+						"pulse",
+						"dev"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT params",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "AWS_ACCESS_KEY_ID",
+						"value": "ASIARKRDTIUBCQNQNSWW",
+						"type": "text",
+						"id": 0
+					},
+					{
+						"key": "AWS_SECRET_ACCESS_KEY",
+						"value": "o6EDJ96O+krR5fFYG680IAV/Rqn+xjVF1Al6dNbQ",
+						"type": "text",
+						"id": 1
+					},
+					{
+						"key": "AWS_SESSION_TOKEN",
+						"value": "IQoJb3JpZ2luX2VjEHkaCWV1LXdlc3QtMSJIMEYCIQDlIbls/nNDjONa4wu9NPFdr+tZy848t/GTVWgMIxlMDAIhAMV0tO2TCpUrYfHkLyQLjd0hvt9jOnixFqQ68fNlqgAaKp0DCJL//////////wEQARoMMDkxMzQyNzE4MjEwIgzmp0iYgEwnEVa6Q/cq8QLk3Q6dty0zIhkbRYQZiiBScZwICf96N1269Yuk1FX7cpY+blP1qHtYjpEHaA3RV6PZ6bMeggM91BHByM6GWY10Wk1buQC0mVHlrCiUmGSXo2qUkZC5PUczMvqgh4aGx67+SURLjzaS/69p85VUcSbtrq3NcY7/esIG4B3bd4JimE0vMrVUi7vSJ6vgHA3E/ztuxq0PNjbGgS0oxSvvI9lJsjyCqUm36otFkaK3C1ICLH2Ht6gfVZOiG8LkiMkiLl8Lt8ilvFuRs7++N2Mikd+ZBy5fuQTXAC6GpTRQ7eX+hxlhKf4DbplZ7NnPszbEO4QJ5pUuVMzhFV/Mg0lNUBJgD7rzpJVl/UzwoNJX5B+3NMthbP+b/Cgt4krWcMef/URRnDb58lJnDh+0c2Fc2VeuyPdw091Ygl6ohsk2jpLrXrNwr0Q5OuxVA++wl5MTEUvh2wt8hlIkfHT7yVyBvdEA+DCx3gSGhdz5iiaHAZKAXVsw2O+6qQY6pQEQzChWMjQazqFbilZlUJXtxPKf9JO9aXXLiJ8Im0rm+aj5acpGrjPTlqhCR/FbzZbpZ8B0Gi4K6R5IE7YTQI57sOe/xnA3uBlOa5DuRwnT7MNpd2MTJnkbDBswzmnTU9uyn+sMDXhDRoxzjFsn8CMy5f3pzqbN9XABSg8o03nwe8RiP4j7sgsa6LlmNC9ssqVAlRIQiO/N115L/A3O5/knDE8d8Ic=",
+						"type": "text",
+						"id": 2
+					},
+					{
+						"key": "REGION",
+						"value": "eu-west-1",
+						"type": "text",
+						"id": 3
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"key\": \"/pulse/dev/postgresql/db_master_username\",\n    \"type\": \"SecureString\",\n    \"value\": \"dev_pulse\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://3000-narendrasg-starterexpre-jdmj702c5s6.ws-us105.gitpod.io/params/pulse/dev",
+					"protocol": "https",
+					"host": [
+						"3000-narendrasg-starterexpre-jdmj702c5s6",
+						"ws-us105",
+						"gitpod",
+						"io"
+					],
+					"path": [
+						"params",
+						"pulse",
+						"dev"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
