@@ -9,7 +9,7 @@ app.use(parser.json());
 
 const options = {
     allow: {
-        origin: ["http://localhost:80", "https://lazy-erin-turkey-sari.cyclic.cloud/"],//'https://lazy-erin-turkey-sari.cyclic.cloud/',
+        origin: ["*"],//'https://lazy-erin-turkey-sari.cyclic.cloud/',
         methods: 'GET,PATCH,PUT,POST,DELETE,HEAD,OPTIONS',
         headers: 'Content-Type, Authorization, Content-Length, X-Requested-With, X-HTTP-Method-Override'
     }
