@@ -7,15 +7,15 @@ const app = express()
 
 app.use(parser.json());
 
-const options = {
-    allow: {
-        origin: ["*"],//'https://lazy-erin-turkey-sari.cyclic.cloud/',
-        methods: 'GET,PATCH,PUT,POST,DELETE,HEAD,OPTIONS',
-        headers: 'Content-Type, Authorization, Content-Length, X-Requested-With, X-HTTP-Method-Override'
-    }
-}
+// const options = {
+//     allow: {
+//         origin: ["*"],//'https://lazy-erin-turkey-sari.cyclic.cloud/',
+//         methods: 'GET,PATCH,PUT,POST,DELETE,HEAD,OPTIONS',
+//         headers: 'Content-Type, Authorization, Content-Length, X-Requested-With, X-HTTP-Method-Override'
+//     }
+// }
 
-app.use(cors(options));
+app.use(cors());
 
 
 
