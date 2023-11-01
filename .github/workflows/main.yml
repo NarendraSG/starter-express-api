@@ -9,8 +9,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: NarendraSG/starter-express-api@main
+      #- name: Checkout code
+      #  uses: NarendraSG/starter-express-api@main
         
       - name: Init
         run: |
