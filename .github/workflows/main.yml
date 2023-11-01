@@ -1,0 +1,17 @@
+name: Minute-by-Minute Workflow
+
+on:
+  schedule:
+    - cron: '*/1 * * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Your Job Step
+        run: |
+          # Add your job's commands here
