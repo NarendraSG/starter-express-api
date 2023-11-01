@@ -10,7 +10,8 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: echo "Hello WOrld!!!"
+        run: |
+          echo "Hello WOrld!!!"
         
       - name: Init
         run: |
