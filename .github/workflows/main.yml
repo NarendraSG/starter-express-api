@@ -10,8 +10,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        run: |
-          echo "Hello WOrld!!!"
+        uses:NarendraSG/starter-express-api@main
         
       - name: Init
         run: |
