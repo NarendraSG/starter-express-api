@@ -9,9 +9,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Your Job Step
+      - name: Init
         run: |
-          # Add your job's commands here
+          echo "Starting..."
+
+      - name: Building
+        run: |
+          echo "Building the project..."
