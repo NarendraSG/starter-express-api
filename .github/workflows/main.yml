@@ -1,4 +1,4 @@
-name: Minute-by-Minute Workflow
+name: Per Minute Workflow
 
 on:
   schedule:
