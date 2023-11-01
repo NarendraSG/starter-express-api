@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses:NarendraSG/starter-express-api@main
+        uses: NarendraSG/starter-express-api@main
         
       - name: Init
         run: |
