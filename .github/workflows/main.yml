@@ -2,7 +2,7 @@ name: Per Minute Workflow
 
 on:
   schedule:
-    - cron: '0 * * * * *'
+    - cron: '*/2 * * * *'
 
 jobs:
   build:
