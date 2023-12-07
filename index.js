@@ -6,7 +6,7 @@ const parser = require("body-parser");
 const app = express()
 
 app.use(parser.json());
-app.use(parser.urlencoded({ extended: false }))
+// app.use(parser.urlencoded({ extended: false }))
 
 const options = {
     allow: {
@@ -41,6 +41,16 @@ app.put("/params/:project/:stage", async(req, res) => {
     const { aws_access_key_id: AWS_ACCESS_KEY_ID, aws_secret_access_key: AWS_SECRET_ACCESS_KEY, aws_session_token: AWS_SESSION_TOKEN, region: REGION } = req.headers;
     const { project, stage } = req.params;
     const {key, value, type} = req.body;
+
+    console.log(`
+    #############################
+
+    body: ${req.body}
+
+    stringified: ${JSON.stringify(req.body)}
+
+    #############################
+    `);
 
     await ps.putParameter(key, value, type, {region: REGION ?? 'us-east-1', Overwrite: true, accessKeyId: AWS_ACCESS_KEY_ID, secretAccessKey: AWS_SECRET_ACCESS_KEY, sessionToken: AWS_SESSION_TOKEN })
 
